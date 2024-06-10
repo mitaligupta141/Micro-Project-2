@@ -1,0 +1,318 @@
+
+/* navigation-bar  */
+
+.nav-bar{
+  background-color: #6F6AF7;
+height: 10vh;
+width: 100%;
+display: flex;
+position: relative;
+align-items: center;
+}
+
+.dappr{
+  font-family: 'Delius Unicase', sans-serif;
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  left: 2%;
+}
+
+
+.nav{
+  color: white;
+  list-style: none;
+  display: flex;
+  font-family: 'DM Sans', sans-serif;
+   font-size: x-large;
+  gap: 90px;
+ position: absolute;
+  left: 18%;
+  bottom: 0%;
+  
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  left: 70%;
+}
+
+form {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: white;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 200px;
+  color: #9F9F9F;
+}
+
+button {
+
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+
+
+button i {
+  color: #ADADAD;
+}
+
+
+.Vector-img{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 93%;
+}
+
+.Vector{
+  height: 40%;
+}
+
+
+
+.whatsapp-sticky-icon{
+  display: flex;
+  height: 30vh;
+   position: sticky;
+   top: 10%; 
+   float: right;
+   margin-top: 50px;
+
+}
+
+
+
+
+/* coding-container */
+
+.coding-container{
+
+  height: 60vh;
+  
+  display: flex;
+  align-items: center;
+  position: relative;
+
+}
+
+.coding-img{
+  height: 80%;
+ position: absolute;
+ left: 9%;
+ top: 12%;
+
+
+}
+
+.text-a{
+  position: absolute;
+  height: 43vh;
+  width: 50vw;
+ left: 37%;
+ top: 12%;
+ background-color:#E5D8FF;
+ border: none;
+ border-radius: 10px;
+ font-family: 'DM Sans', sans-serif;
+ font-size: large;
+ padding: 20px;
+ box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); 
+
+ 
+}
+
+
+
+/* carts-section */
+
+
+.carts{
+  height: 30vh;
+ 
+  display: flex;
+  gap: 70px;
+ padding: 40px;
+ justify-content: center;
+}
+
+.cart1 ,.cart2 ,.cart3, .cart4{
+  height: 55%;
+  width: 18%;
+  border-radius: 6px;
+  color: white;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  font-family: 'DM Sans', sans-serif;
+line-height: 2;
+padding-left: 14px;
+  font-size: large;
+
+}
+
+.cart1{
+  background-color: #929DFF;
+
+}
+
+.cart2{
+  background-color:  #734CF2;
+  
+
+}
+.cart3{
+  background-color: #D288FF;
+
+
+}
+.cart4{
+  background-color:#000000;
+
+
+}
+
+
+.fixed-image-Group{
+ 
+  height: 23vh;
+  z-index: 100;
+   position: fixed;
+bottom: 10px;
+   right: 20px;
+}
+
+
+
+
+
+
+/* information-section */
+
+
+
+.info{
+  height: 80vh;
+}
+
+.purple-info{
+
+  background-color: #483EFF;
+display: flex;
+  height: 70vh;
+  width: 80vw;
+  border-radius: 8px;
+}
+
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+height: 100%;
+width: 30%;
+gap: 60px;
+justify-content: center;
+padding-left: 30px;
+
+}
+
+.button1 , .button2, .button3{
+  height: 16%;
+  width: 70%;
+  border-radius: 8px;
+  margin-left: 40px;
+  
+}
+
+.button1{
+  background-color: #BCE0F6;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button2, .button3{
+background-color: transparent;
+color: white;
+font-weight: bold;
+font-size: larger;
+border: 5px solid #ffff;
+}
+
+
+
+.content{
+height: 100%;
+width: 70%;
+position: relative;
+
+}
+
+.white-content{
+  background-color: white;
+display: flex;
+height: 90%;
+width: 90%;
+position: absolute;
+top: 5%;
+left: 6%;
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+text-align: start;
+line-height: 45px;
+
+
+}
+
+.con{
+ 
+  color: #04285A;
+  font-family: 'Inter', sans-serif;
+  
+ 
+}
+
+span{
+  font-family: 'Roboto', sans-serif;
+}
+
+.next-button{
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  height: 11%;
+  width: 19%;
+  font-size: large;
+align-self: end;
+margin-right: 40px;
+margin-top: 70px;
+border: none;
+}
+
+
+
+
+
+
+
+
